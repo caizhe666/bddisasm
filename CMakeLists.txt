@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
-option(BDD_INCLUDE_TOOL "Include the disasmtool executable" ON)
-option(BDD_INCLUDE_ISAGENERATOR "Include the isagenerator target (if a python interpreter is found)" ON)
+option(BDD_INCLUDE_TOOL "Include the disasmtool executable" OFF)
+option(BDD_INCLUDE_ISAGENERATOR "Include the isagenerator target (if a python interpreter is found)" OFF)
 option(BDD_INCLUDE_FUZZERS "Include the bdshemu fuzzer" OFF)
 option(BDD_USE_EXTERNAL_VSNPRINTF "Expect nd_vsnprintf_s implementation from the integrator" OFF)
 option(BDD_USE_EXTERNAL_MEMSET "Expect nd_memset implementation from the integrator" OFF)
